@@ -16,6 +16,7 @@ docker pull surveyplus/kube-proxy:v1.16.0
 docker pull surveyplus/kube-scheduler:v1.16.0
 docker pull surveyplus/pause:3.1
 docker pull surveyplus/storage-provisioner:v1.8.1
+docker pull surveyplus/nginx-ingress-controller:0.26.1
 
 docker tag surveyplus/coredns:1.6.2 k8s.gcr.io/coredns:1.6.2
 docker tag surveyplus/etcd:3.3.15-0 k8s.gcr.io/etcd:3.3.15-0
@@ -29,4 +30,5 @@ docker tag surveyplus/kube-proxy:v1.16.0 k8s.gcr.io/kube-proxy:v1.16.0
 docker tag surveyplus/kube-scheduler:v1.16.0 k8s.gcr.io/kube-scheduler:v1.16.0
 docker tag surveyplus/pause:3.1 k8s.gcr.io/pause:3.1
 docker tag surveyplus/storage-provisioner:v1.8.1 gcr.io/k8s-minikube/storage-provisioner:v1.8.1
+docker tag surveyplus/nginx-ingress-controller:0.26.1 quay.io/kubernetes-ingress-controller/nginx-ingress-controller:0.26.1
 ```
