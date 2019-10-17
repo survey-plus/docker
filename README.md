@@ -34,3 +34,7 @@ docker tag surveyplus/pause:3.1 k8s.gcr.io/pause:3.1
 docker tag surveyplus/storage-provisioner:v1.8.1 gcr.io/k8s-minikube/storage-provisioner:v1.8.1
 docker tag surveyplus/nginx-ingress-controller:0.26.1 quay.io/kubernetes-ingress-controller/nginx-ingress-controller:0.26.1
 ```
+
+```bash
+kubectl apply -f https://raw.githubusercontent.com/kubernetes/dashboard/v1.10.1/src/deploy/recommended/kubernetes-dashboard.yaml
+```
